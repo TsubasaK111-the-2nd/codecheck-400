@@ -12,7 +12,7 @@ describe("Technology specialist challenge 1-1", () => {
       .then(result => {
         if (testcase.code == 0) {
           assert.equal(result.code, testcase.code);
-          //assert.equal(result.stdout.join("\\n"), testcase.output.join("\\n"));
+          assert.equal(result.stdout.join("\\n"), testcase.output.join("\\n"));
         } else {
           assert.equal((result.code >= testcase.code), true);
           // Ignore output lines when status code is greater than 0.
@@ -29,7 +29,7 @@ describe("Technology specialist challenge 1-2", () => {
       .then(result => {
         if (testcase.code == 0) {
           assert.equal(result.code, testcase.code);
-          //assert.equal(result.stdout.join("\\n"), testcase.output.join("\\n"));
+          assert.equal(result.stdout.join("\\n"), testcase.output.join("\\n"));
         } else {
           assert.equal((result.code >= testcase.code), true);
           // Ignore output lines when status code is greater than 0.
@@ -46,7 +46,7 @@ describe("Technology specialist challenge 1-3", () => {
       .then(result => {
         if (testcase.code == 0) {
           assert.equal(result.code, testcase.code);
-          //assert.equal(result.stdout.join("\\n"), testcase.output.join("\\n"));
+          assert.equal(result.stdout.join("\\n"), testcase.output.join("\\n"));
         } else {
           assert.equal((result.code >= testcase.code), true);
           // Ignore output lines when status code is greater than 0.
