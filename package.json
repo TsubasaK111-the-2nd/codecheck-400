@@ -1,0 +1,13 @@
+{
+  "name": "TechnologySpecialistChallenge",
+  "version": "1.0.0",
+  "description": "codecheck challenge",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Givery",
+  "devDependencies": {
+    "codecheck": "^0.6.0",
+    "chai": "^3.5.0"
+  }
+}
